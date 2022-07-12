@@ -41,7 +41,6 @@ email='jane@example.com', content='Hello World, I\'m Jane!')
         # Get timeline posts and assert that they are correct
         all_posts = get_time_line_post()
         for post in all_posts:
-            print(all_posts[post])
             assert all_posts[post][0]['id'] == 2
             assert all_posts[post][1]['id'] == 1
         

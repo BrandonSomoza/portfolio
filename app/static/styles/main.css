@@ -71,7 +71,7 @@ body {
 }
 
 .nav-bar {
-    background-color: #1c539f;
+    background-color: #013220;
     font-family: "Roboto", serif;
     font-weight: 700 !important;
     padding-top: 10px;
@@ -117,7 +117,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #2570d9;
+    background-color: #013220;
 }
 
 .hyena img{
@@ -130,7 +130,8 @@ body {
 }
 
 .profile {
-    background-color: #1d539f !important;
+    background-color: #013220 !important;
+    /* background-color: #1d539f !important; */
     margin-bottom: 50px;
     text-align: center;
 }
@@ -159,7 +160,7 @@ body {
 }
 
 .banner {
-    background-color: #1d539f;
+    background-color: #013220;
     height: 150px;
     padding: 20px 0 50px 0;
 }

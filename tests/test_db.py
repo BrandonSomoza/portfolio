@@ -8,7 +8,6 @@ from app import TimelinePost, get_time_line_post
 MODELS = [TimelinePost]
 
 # use an in-memory SQLite for tests.
-
 test_db = SqliteDatabase(':memory:')
 
 class TestTimelinePost(unittest.TestCase):

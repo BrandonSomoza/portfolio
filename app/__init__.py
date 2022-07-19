@@ -18,7 +18,7 @@ from playhouse.shortcuts import model_to_dict
 load_dotenv()
 app = Flask(__name__)
 
-# Create dynamic navbar instance
+# Create dynamic navbar Instance
 nav_bar = Navbar('Navigation',
                  View('Home', 'index'),
                  View('Work Experience', 'experience'),
